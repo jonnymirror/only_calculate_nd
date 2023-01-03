@@ -84,7 +84,7 @@ void making_Type_partitions() {
 //メイン関数.
 int main() {
 	//入力開始.
-	ifstream ifs1("ego-twitter.txt");
+	ifstream ifs1("Infectious.txt");
 
 	if (!ifs1) {
 		std::cout << "Errer!";
@@ -106,12 +106,12 @@ int main() {
 			m = stoll(s);
 			count++;
 		}
-		else if (count > 1 && count < 2 + 2 * m && count % 2 == 0) {//グラフの枝の端点
+		else if (count > 1 && count % 2 == 0) {//グラフの枝の端点
 			x = stoll(s);
 			x--;
 			count++;
 		}
-		else if (count > 1 && count < 2 + 2 * m && count % 2 == 1) {//グラフの枝のもう一つの端点
+		else if (count > 1 && count % 2 == 1) {//グラフの枝のもう一つの端点
 			y = stoll(s);
 			y--;
 			count++;

@@ -143,7 +143,11 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="ego-twitter.txt" />
+    <Text Include="Haggle.txt" />
+    <Text Include="hiv.txt" />
+    <Text Include="Hypertext 2009.txt" />
     <Text Include="iceland.txt" />
+    <Text Include="Infectious.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
